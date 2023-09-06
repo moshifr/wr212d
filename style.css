@@ -1,0 +1,42 @@
+h1 {
+    color: #FFF;
+    font-family: Playfair Display, serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 88px; /* 110% */
+    max-width: 586px;
+    margin-bottom: 66px;
+}
+
+header {
+    background: url(assets/header-background.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 688px;
+    padding-top: 91px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.button {
+    background: white;
+    padding: 16px;
+    min-width: 150px;
+    color: #333;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.button:hover {
+    background: #18302B;
+    color: white;
+}
