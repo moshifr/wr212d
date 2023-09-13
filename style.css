@@ -108,3 +108,52 @@ section {
     border-radius: 100%;
     width: 100%;
 }
+
+.industries {
+    background-color: #18302B;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 101px;
+}
+
+.industries h2 {
+    color: white;
+    text-align: center;
+}
+
+.industries .icones {
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+@keyframes rotation {
+    from {
+        transform: none;
+        background-color: #fff;
+    }
+    to {
+        transform: rotate(360deg);
+        background-color: #18302B;
+    }
+}
+
+.industries .icones div:hover svg {
+    animation: rotation 5s linear infinite;
+}
+
+.industries .icones div {
+    width: 108px;
+}
+
+.industries svg {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    vertical-align: middle;
+    background: white;
+    border-radius: 100%;
+    padding: 32px;
+}
